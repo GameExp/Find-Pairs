@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1891672231368580571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1891672231368580573}
+  - component: {fileID: 1891672231368580572}
+  m_Layer: 0
+  m_Name: LevelController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1891672231368580573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891672231368580571}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1891672231368580572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1891672231368580571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71cd4b1aee029c246a5340fd337e4b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  originalCard: {fileID: 0}
+  images:
+  - {fileID: 21300000, guid: b15bf0bec34ba034ca34cde8e194e7f8, type: 3}
+  - {fileID: 21300000, guid: 1cdca7eb4fec90b4db8576f6d1a5e1d0, type: 3}
+  - {fileID: 21300000, guid: b7b22dee0d41e9b4680fdd937819c77d, type: 3}
+  - {fileID: 21300000, guid: 91ee1296628ae2b4892a97d886ef5bdd, type: 3}
+  scoreLabel: {fileID: 0}
+  matchKnownLabel: {fileID: 0}
+  timer: {fileID: 0}
+  allTilesRevealedAtStart: 1
